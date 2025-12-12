@@ -8,6 +8,7 @@ module.exports = withNextra({
   i18n: {
     locales: ['en', 'zh'],
     defaultLocale: 'en',
+    localeDetection: false,
   },
   webpack(config) {
     const allowedSvgRegex = /components\/icons\/.+\.svg$/
